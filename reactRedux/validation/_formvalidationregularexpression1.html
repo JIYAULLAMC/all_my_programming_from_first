@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function validate() {
+        event.preventDefault();
+        console.log("hello world");
+        let _username = document.getElementById("id_username")
+        // let regx = /E00/; // element shoul contain the E00 as it is
+        let regx = /E00/i;   // element should contain the e00 or E00 case in sensitive
+        if (regx.test(_username.value)) {
+          alert("valid user name ");
+
+        } else {
+          alert("invalid user name");
+          _username.style.border="2px solid red"
+          _username.style.borderRadius = "4px"
+          document.getElementById("id_lbl_username").style.visibility="visible"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <br />
+    <form action="">
+      <input type="text" name="username" id="id_username" />
+      <label
+        for="id_username"
+        id="id_lbl_username"
+        style="color: red; visibility: hidden"
+        >invalid username</label
+      >
+      <br />
+      <br />
+      <button onclick="validate()">check the pattern</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,115 @@
+.rota{
+    width:150px;
+    height:150px;
+    margin:100px;
+    background-color: rgb(219, 192, 38);
+    transform: rotate(30deg);
+}
+
+.rota{
+    width:150px;
+    height:150px;
+    margin:100px;
+    background-color: rgb(255, 165, 47);
+    transform: rotateX(60deg);
+}
+
+
+.rota1{
+    width:150px;
+    height:150px;
+    margin:100px;
+    background-color: rgb(197, 44, 146);
+    transform: rotateY(60deg);
+}
+
+
+.rota2{
+    width:150px;
+    height:150px;
+    margin:100px;
+    background-color: rgb(219, 91, 31);
+    transform: rotateZ(60deg);
+}
+
+
+.rota3{
+    width:150px;
+    height:150px;
+    margin:100px;
+    background-color: rgb(96, 34, 168);
+    transform: rotate(30deg, 30deg, 60deg);
+}
+
+.rota4{
+    width:150px;
+    height:150px;
+    margin:100px;
+    background-color: rgb(121, 175, 41);
+    transform: rotateX(30deg);
+}
+
+.rota5{
+    width:150px;
+    height:150px;
+    margin:100px;
+    background-color: rgba(35, 28, 145, 0.37);
+    transform: rotateX(30deg);
+}
+
+
+.rota6{
+    width:150px;
+    height:150px;
+    margin:100px;
+    background-color: rgba(44, 158, 224, 0.568);
+    transform: rotateX(30deg);
+}
+
+
+.rota7{
+    width:150px;
+    height:150px;
+    margin:100px;
+    background-color: rgba(168, 37, 185, 0.281);
+    transform: rotateX(30deg);
+}
+
+
+.rota8{
+    width:150px;
+    height:150px;
+    margin:100px;
+    background-color: greenyellow;
+    transform: rotateX(30deg);
+}
+
+
+.rota9{
+    width:150px;
+    height:150px;
+    margin:100px;
+    background-color: greenyellow;
+    transform: rotateX(30deg);
+}
+
+
+.rota10{
+    width:150px;
+    height:150px;
+    margin:100px;
+    background-color: greenyellow;
+    transform: rotateX(30deg);
+}
+
+.rota3{
+    width:150px;
+    height:150px;
+    margin:100px;
+    background-color: greenyellow;
+    transform: rotateX(30deg);
+}
+
+
+
+

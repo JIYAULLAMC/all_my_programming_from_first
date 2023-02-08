@@ -1,0 +1,41 @@
+.label{
+    color:green;
+    font-size:15px;
+    font-weight:bold;
+    padding:2px;
+    margin:2px;
+}
+
+.inputs{
+    color:aquamarine;
+    width:295px;
+    border:8px solid yellowgreen;
+}
+/* 
+#all
+{
+    transform:translateX(%)
+
+
+} */
+
+#body
+{
+    background-color:rgb(217, 252, 94);
+    padding: 20px;
+    margin:50px;
+
+}
+
+
+
+#d2
+{
+    display: flex;
+    border: 20px solid rgb(111, 111, 253);
+    flex-direction: row;
+    background-color: rgb(190, 209, 250);
+    width:310px;
+    transform:translateX(350px)
+
+}

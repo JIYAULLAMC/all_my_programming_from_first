@@ -1,0 +1,79 @@
+         
+/* 
+
+
+pseudo class element are those elements which are used to select 
+the elements based on the state of the elements 
+input:hover{
+    color: red;
+    background-color: blue;
+    box-shadow: 5px greenyellow;
+}
+
+p:hover {
+    background-color: aqua;
+}
+
+
+input:focus{
+    color:green;
+    box-shadow: 5px 5px yellow;
+}
+
+---------------------------------------------
+
+
+div p:first-child {
+    background-color: red;
+}
+
+
+#back::selection {
+    color:blue;
+    background-color: aqua;
+  
+}
+
+div::before {
+    color:green;
+    background-color: greenyellow;
+
+}
+
+
+-----------------------------------------
+
+
+div ol li {
+    color: green;
+    background-color: greenyellow;
+}
+
+div ol li:hover {
+    color: red;
+    background-color: greenyellow;
+}
+
+psuedo element selector are those which is select the 
+elements and applay the styling on part of the element
+
+A css pusedo_element is used to syple  specified part ot ana elelment
+(::) for example it can be used to 
+
+style the firs letter or line of an element
+insert contene before or after the conten of an elements
+marker and selection
+
+ul li::marker{
+    color:green;
+
+}
+
+after p::after inse somthing affter the conten of each <p> element
+::before  p::before inser tsomenting before the contend of each<p? element
+::first-letter p::first-letter select the letter of each <p? elements
+::first-line 0:en    select the first  mese                                                              
+
+
+*/
+

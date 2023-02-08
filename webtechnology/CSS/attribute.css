@@ -1,0 +1,40 @@
+a {
+    
+}
+
+p {
+    border-width: 2px;
+    border-style: dotted;
+    border-color:blue;
+
+    border: 3px groove red;
+
+
+}
+
+#double {
+    border: 2px solid green;
+    outline: 3px solid red;
+    outline-offset: 2px;
+    outline: 3px solid red;
+    outline-offset: 2px;
+}
+
+
+#pic {
+    
+
+}
+
+/* whenever you speccify the backround position the first value ether top
+left bottom left right center second default value will be center 
+vh view port height and vw view port width  
+back
+*/
+
+
+.br {
+    border: 5px solid red;
+    border-radius: 0px 1500px ;
+    width:300px;
+}

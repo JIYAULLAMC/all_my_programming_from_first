@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function validation() {
+        let _username = document.getElementById("id_username");
+        let _password = document.getElementById("id_password");
+        if (_username.value.trim() == "") {
+          // alert("Enter the valid name for username !");
+          _username.style.border = "solid  2px red";
+          document.getElementById("lbl_username").style.visibility = "visible";
+          return false;
+        } else if (_password.value.trim() == "") {
+          // alert("Enter the valid input for the password");
+          console.log("-------------------------------------");
+          document.getElementById("lbl_password").style.visibility = "visible";
+          _password.style.border = "solid 2px red";
+          return false;
+        } else if (_password.value.trim().length < 5) {
+          // alert(`passowrd length is ${_password.length} password should be greter than 5 charecters`);
+          document.getElementById("lbl_password").style.visibility = "visible";
+          _password.style.border = "solid 2px red";
+          return false;
+        } else {
+          return true;
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <br />
+    <form action="/_formvalidation1.html" onsubmit="return validation()">
+      <input type="text" name="username" id="id_username" />
+      <label
+        for="id_username"
+        id="lbl_username"
+        style="color: red; visibility: hidden"
+      >
+        Enter name
+      </label>
+      <br /><br />
+
+      <input type="password" name="password" id="id_password" />
+      <label
+        for="id_password"
+        id="lbl_password"
+        style="color: red; visibility: hidden"
+        >Enter password
+      </label>
+      <br /><br />
+
+      submit the form : <input type="submit" value="log-in" />
+    </form>
+  </body>
+</html>

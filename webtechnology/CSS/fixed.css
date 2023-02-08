@@ -1,0 +1,31 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: greenyellow;
+}
+nav {
+	background-color: seagreen;
+	width: 100%;
+	position: fixed;
+
+}
+ul li {
+	display: inline-block;
+	padding: 10px 50px;
+
+}
+
+.sticky nav {
+	background-color: seagreen;
+	width: 100%;
+	position: sticky;
+
+}
+
+.chr {
+	color: white;
+}
+

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function Mobile(model_no, color, price) {
+        this.model_no = model_no;
+        this.color = color;
+        this.price = price;
+        var is_good = "yes"
+
+        this.data = function () {
+          document.write(` model no is ${this.model_no} <br>
+                    model color is ${this.color} <br>
+                    model price is ${this.price} <br>`);
+        };
+        this.show_private = function() {
+            document.write(` is goo : ${is_good} `)
+        }
+
+        this.show_private1 = () => is_good
+        
+      }
+
+      var samsung = new Mobile(1111, "red", 1200)
+     // samsung.data()
+     document.write("public property ", samsung.model_no, "<br>")
+     document.write("private property ", samsung.is_good, "<br>")
+     samsung.show_private()
+     document.write(" <br> private property ", samsung.show_private1(), "<br>")
+
+    </script>
+  </body>
+</html>

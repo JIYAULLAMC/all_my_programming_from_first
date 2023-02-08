@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="./_1index.html" onsubmit="validation()">
+        <br>
+        <input type="text" id="id_firstname" name="firstname">  
+        <br> <br>
+        <input type="text" id="id_password" name="password">  
+        <br> <br>
+        <input type="submit" value="submit"> <br>
+    </form>
+    <script>
+        function validation() {
+           // event.preventDefault();
+            console.log("thi is validation ")
+            let firstname = document.getElementById("id_firstname").value
+            let password = document.getElementById("id_password").value
+           
+            if (firstname == "" || password == "" ) {
+                alert("fill the form ")
+            }
+            else {
+
+            }
+
+        }
+    </script>
+    
+</body>
+</html>

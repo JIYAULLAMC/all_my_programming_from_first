@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pattern, required, and drop down</title>
+</head>
+<body>
+
+    <form action="#">
+
+        <div>
+        <label for="foods">Select the food</label>
+        <input list="fav" id='foods' name='foods'>
+        <datalist id='fav'>
+            <option value="ragi ball">ragi ball</option>
+            <option value="palav">palav</option>
+            <option value="rooti">rooti</option>
+            <option value="chitranna">chitranna</option>
+
+        </datalist>
+    </div>
+
+    <div>
+        <label for="subjects">Enter the subjects</label>
+        <input list='sub' id='subjects' name='subjects'>
+        <datalist id='sub'>
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="Java Script">Java Script</option>
+            <option value="Python">Python</option>
+        </datalist>
+    
+    </div>
+
+
+ <div>
+     <label for="state">Enter the state</label>
+     <input list='states' id='state' name='state'>
+     <datalist id='states'>
+         <option value="Karanataka">Karanataka</option>
+         <option value="Tamil Nadu">Tamil Nadu</option>
+         <option value="Andra pradesh">Andra pradesh</option>
+         <option value="Kerala">Kerala</option>
+     </datalist>
+ </div>  
+ <input type="range" name="rating" max=10 min=0 id="">
+ 
+ 
+ 
+ 
+ <div>
+    <input type="submit" value="submit" name='submit'>
+
+
+ </div>
+ 
+
+
+    </form>
+    
+</body>
+</html>

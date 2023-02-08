@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0px;
+        margin: 0px;
+      }
+      body {
+        width: 1200px;
+        margin: auto;
+        background-color: rgb(181, 190, 148);
+      }
+
+      /* header */
+      header {
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(248, 125, 125);
+        border: 0px solid;
+        border-radius: 20px;
+      }
+      div ol {
+        display: flex;
+        list-style: none;
+        text-transform: capitalize;
+      }
+      div ol li {
+        padding: 10px;
+        margin: 5px 10px;
+        font-size: 30px;
+        border: 2px solid gainsboro;
+        border-radius: 15px;
+      }
+      div ol li:hover {
+        background-color: white;
+      }
+      div ol li a {
+        text-decoration: none;
+      }
+      header div h1 {
+        padding: 20px;
+        color: blue;
+      }
+
+      /* body */
+
+      .container {
+        width: 1200;
+        height: 600px;
+        background-image: url(./image/bed.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 0px solid;
+        border-radius: 15px;
+      }
+
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      .container h1 {
+        position: relative;
+      }
+      .container p {
+        width: 800px;
+        position: relative;
+        text-align: justify;
+        margin: 20px;
+      }
+      .container button {
+        font-size: 25px;
+      }
+
+      /* heading */
+      .heading {
+        text-align: center;
+        color: aliceblue;
+        padding: 20px;
+        margin: 20px;
+      }
+
+      /* courses */
+
+      .courses {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+        background-color: lightblue;
+      }
+      .courses div {
+        padding: 10px;
+        margin: 20px;
+        width: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        box-shadow: 10px 10px 10px black;
+        border: 0px solid;
+        border-radius: 15px;
+      }
+
+      .courses div img {
+        width: 500px;
+        height: 500px;
+        border-radius: 20px;
+      }
+      .courses div h3 {
+        padding: 10px;
+        font-size: 30px;
+      }
+
+      .courses div p {
+        text-align: justify;
+        padding: 15px;
+      }
+
+      /* footer */
+      .footer {
+        margin: 30px;
+        width: 1200px;
+        background-color: lightgray;
+      }
+      .footer div {
+        display: flex;
+        padding: 10px;
+        margin: 10px;
+      }
+
+      .footer div img {
+        padding-left: 40px;
+        width: 30px;
+        height: 30px;
+      }
+
+      .footer div h3 {
+        padding-left: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>MySite</h1>
+      </div>
+      <div>
+        <ol>
+          <li><a href="/index.html">home</a></li>
+          <li><a href="/cources.html">cources</a></li>
+          <li><a href="/register.html">register</a></li>
+          <li><a href="">contact</a></li>
+        </ol>
+      </div>
+    </header>
+
+    <footer>
+      <div class="footer">
+        <div>
+          <img src="/image/facebook-g51f961ef2_1920.png" alt="" />
+          <h3>to folow our facebook page</h3>
+        </div>
+        <div>
+          <img src="/image/instagram-gffa44b123_1920.jpg" alt="" />
+          <h3>to follow our instagram page</h3>
+        </div>
+        <div>
+          <img src="/image/twitter-gc7d31ac15_1280.png" alt="" />
+          <h3>to follow our twitter page</h3>
+        </div>
+        <div>
+          <h1>Home address :</h1>
+          <h2>bangalore Near Mejaestic Basavanagudi</h2>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

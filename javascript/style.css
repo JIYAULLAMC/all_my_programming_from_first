@@ -1,0 +1,160 @@
+body {
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+  margin: 0px;
+}
+.container {
+  width: 1300px;
+  background-color: rgb(175, 236, 216);
+}
+
+.topheading {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-right: 100px;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  width: 600px;
+}
+.nav ul li {
+  width: 150px;
+  height: 50px;
+  border: 2px solid blue;
+  border-radius: 10px;
+  vertical-align: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  font-size: 20px;
+}
+.main1 {
+  height: 600px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.profile_image {
+  width: 400px;
+  background-color: aqua;
+  height: 500px;
+  margin: 30px;
+  border: 1px solid black;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.greet {
+  margin: 30px;
+  font-size: 70px;
+}
+.name {
+  color: rgb(253, 106, 106);
+}
+
+/* main2 */
+.schools {
+  display: flex;
+}
+.school {
+  width: 400px;
+  background-color: blueviolet;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  border: 0px solid black;
+  border-radius: 20px;
+}
+.schoolchild {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+.schoolimg {
+  width: 350px;
+  height: 400px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border: 0px solid black;
+  border-radius: 20px;
+}
+.school_detail {
+  text-align: justify;
+}
+
+/* main3 ----------------- */
+
+.main3 {
+  height: 600px;
+  background-color: rgb(129, 253, 80);
+  border: 0px solid black;
+  border-radius: 0px 100% 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mydiv {
+  width: 1000px;
+  height: 500px;
+  float: right;
+}
+
+.html{
+    width: 1200px;
+    height: 40px;
+}
+
+.bubble {
+  height: 150px;
+  width: 150px;
+  background-color: rgb(255, 152, 152);
+  float: right;
+  border: 30px solid rgb(249, 253, 13);
+  border-radius: 50%;
+}
+
+.content{
+  font-size: 20px;
+  overflow: hidden;
+}
+
+.bubble2{
+  /* width: 100px; */
+  /* height: 100px; */
+  background-color: coral;
+  border: 30px solid black;
+  border-radius: 20px;
+}
+.triblock  {
+  display: flex;
+  flex-direction: column;
+  
+}
+.containers{
+  overflow-y: scroll;
+  
+}
+.triblock div{
+  margin: 10px;
+  width: auto;
+  height: 60px;
+  background-color: rgb(226, 43, 89);
+  transform: skew(20px 20px);
+  padding: 10px;
+  margin: 10px;
+  border: 0px solid gray;
+  border-radius: 10px;
+}

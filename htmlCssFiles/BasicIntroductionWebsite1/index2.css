@@ -1,0 +1,61 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: "Inv Maison Neue";
+
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: auto;
+    
+    
+}
+
+.form_area{
+    background-color: rgb(233, 231, 224);
+    width:75%;
+    height:95vh;
+    
+}
+
+.login{
+    position: absolute;
+    left:25%;
+    top:20%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;  
+
+}
+
+.formentity{
+    width:75%;
+    padding:6px;
+    margin:10px 5px 10px 5px;
+    border: 2px solid rgb(190, 188, 188);
+    border-radius: 5%;
+    
+}
+
+.form_note{
+    background-color: rgb(148, 148, 255);
+    width:25%;
+    height: 95vh;
+
+}
+
+
+
+.form_fill{
+    color:rgb(233, 231, 224);
+    position:relative;
+    top: 30%;
+    
+}
+
+

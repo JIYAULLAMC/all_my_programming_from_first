@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #demo1 {
+            width: 40px;
+            height: 60px;
+            background-color: rgb(22, 236, 94);
+            animation: demo1 5s ease-in;
+            animation-iteration-count: infinite;
+        }
+        @keyframes demo1 {
+            100% {
+                transform: translate(300px);
+            }
+            
+        }
+
+        #demo2 {
+            width: 40px;
+            height: 60px;
+            background-color: rgb(33, 36, 228);
+            animation: demo2 5s linear;
+            animation-direction: reverse;
+            animation-iteration-count: infinite;
+        }
+        @keyframes demo2 {
+            100% {
+                transform: translate(300px);
+            }
+            
+        }
+
+
+        #demo3 {
+            width: 40px;
+            height: 60px;
+            background-color: rgb(209, 212, 33);
+            animation: demo3 5s ease-out;
+            animation-direction: reverse;
+            animation-iteration-count: infinite;
+
+        }
+        @keyframes demo3 {
+            100% {
+                transform: translate(300px);
+            }
+            
+        }
+
+        #demo4 {
+            width: 40px;
+            height: 60px;
+            background-color: rgb(228, 46, 33);
+            animation: demo4 5s ease-in-out;
+            animation-direction:alternate-reverse;
+            animation-iteration-count: infinite;
+        }
+        @keyframes demo4 {
+            100% {
+                transform: translate(300px);
+            }
+            
+        }
+
+
+
+
+    </style>
+
+
+
+</head>
+<body>
+
+    <div id="demo1"></div>
+    <div id="demo2"></div>
+    <div id="demo3"></div>
+    <div id="demo4"></div>
+    
+</body>
+</html>

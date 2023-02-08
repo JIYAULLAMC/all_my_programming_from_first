@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mysite</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hero">
+        
+        <div class="box1">
+            <h1>Item 1</h1>
+        </div>
+
+        <div class="box2">
+            <h1>Item 2</h1>
+        </div>
+
+        <div class="box3">
+            <h1>Item 3</h1>
+        </div>
+
+        <div class="box4">
+            <h1>Item 4</h1>
+        </div>
+
+      
+
+    </div>
+
+    
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="color:blue; font-size:20px;">
+    <header style="color:red;">
+        <h1>CSS Tutorial</h1>
+    </header>
+    <hr>
+
+
+    <main style="background-color:yellow">
+        <p>This is the introduction of the first css properties and all</p>
+    </main>
+    <hr>
+
+
+    <main style="border:2px solid black">
+        <p>This is the introduction of the first css properties and all</p>
+    </main>
+    <hr>
+
+
+    <main style="border:2px solid black; width:200px;">
+        <p>This is the introduction of the first css properties and all</p>
+    </main>
+    <hr>
+
+    <main style="border:2px solid black; width:50%;">
+        <p>This is the introduction of the first css properties and all</p>
+    </main>
+    <hr>
+
+
+    <main style="border:2px solid black; width:70%; max-width:600px">
+        <p>This is the introduction of the first css properties and all</p>
+    </main>
+    <hr>
+
+    <main style="border:2px solid black; max-height:600px; height:50%">
+        <p>This is the introduction of the first css properties and all</p>
+    </main>
+
+    <main style="color:white; background-color:red;">
+        <p>This is the introduction of the first css properties and all</p>
+    </main>
+    <hr>
+
+    <main style="color:white; background-color:green">
+        <p>This is the introduction of the first css properties and all</p>
+    </main>
+    <hr>
+    <main style="color:white;background-color:cornflowerblue">
+        <p>This is the introduction of the first css properties and all</p>
+    </main>
+    <hr>
+
+    <main style="color:white;background-color:#ffff00">
+        <p>This is the introduction of the first css properties and all</p>
+    </main>
+    <hr>
+
+    <main style="color:white;background-color:hsl(112,45,34)">
+        <p>This is the introduction of the first css properties and all</p>
+    </main>
+    <hr>
+    <main style="color:white; background-color:rgb(123,123,1232)">
+        <p>This is the introduction of the first css properties and all</p>
+    </main>
+    <hr>
+    <hr>
+    <hr>
+
+
+    <div>
+        <main style="color:white;background-color:rgb(255, 64, 30)">
+            <p>This is the introduction of the first css properties and all</p>
+        </main>
+        <hr>
+
+        <main style="padding:20px;color:white;background-color:rgb(255, 64, 30)">
+            <p>This is the introduction of the first css properties and all</p>
+        </main>
+        <hr>
+
+        <main style="padding:50px;color:white;background-color:rgb(255, 64, 30)">
+            <p>This is the introduction of the first css properties and all</p>
+        </main>
+        <hr>
+        <main style="padding-top:20px;color:white;background-color:rgb(255, 64, 30)">
+            <p>This is the introduction of the first css properties and all</p>
+        </main>
+        <hr>
+        <main style="padding-bottom:20px;color:white;background-color:rgb(255, 64, 30)">
+            <p>This is the introduction of the first css properties and all</p>
+        </main>
+        <main style="padding-left:60px;color:white;background-color:rgb(255, 64, 30)">
+            <p>This is the introduction of the first css properties and all</p>
+        </main>
+        <hr>
+        <main style="padding-right:20px;color:white;background-color:rgb(255, 64, 30)">
+            <p>This is the introduction of the first css properties and all</p>
+        </main>
+        <hr>
+        <hr>
+
+        <main style="padding-top:50px; padding-left:20px;color:white;background-color:rgb(255, 64, 30)">
+            <p>This is the introduction of the first css properties and all</p>
+        </main>
+        <hr>
+        <main style="padding:20px 30px 50px 90px;color:white;background-color:rgb(255, 64, 30)">
+            <p>This is the introduction of the first css properties and all</p>
+        </main>
+        <hr>
+
+    </div>
+    <hr>
+    <hr><hr>
+
+    <div>
+        <main style="margin:20px; color:white;background-color:rgb(255, 64, 30)">
+            <p>This is the introduction of the first css properties and all</p>
+        </main>
+        <hr>
+
+        <main style="margin:20px;color:white;background-color:rgb(173, 30, 255)">
+            <p>This is the introduction of the first css properties and all</p>
+        </main>
+        <hr>
+
+        <main style="margin:50px;color:white;background-color:rgb(238, 219, 48)">
+            <p>This is the introduction of the first css properties and all</p>
+        </main>
+        <hr>
+        <main style="margin-top:20px;color:white;background-color:rgb(148, 228, 43)">
+            <p>This is the introduction of the first css properties and all</p>
+        </main>
+        <hr>
+        <main style="margin-bottom:20px;color:white;background-color:rgb(212, 84, 144)">
+            <p>This is the introduction of the first css properties and all</p>
+        </main>
+        <hr>
+        <main style="margin-left:60px;color:white;background-color:rgb(94, 76, 143)">
+            <p>This is the introduction of the first css properties and all</p>
+        </main>
+        <hr>
+        <main style="margin-right:20px;color:white;background-color:rgb(36, 199, 131)">
+            <p>This is the introduction of the first css properties and all</p>
+        </main>
+        <hr>
+        <hr>
+
+        <main style="margin-top:50px; margin-left:20px;color:white;background-color:rgb(50, 170, 114)">
+            <p>This is the introduction of the first css properties and all</p>
+        </main>
+        <hr>
+        <main style="margin:20px 30px 50px 90px;color:white;background-color:rgb(36, 80, 105)">
+            <p>This is the introduction of the first css properties and all</p>
+        </main>
+        <hr>
+
+    </div>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+
+    <!-- display and float property in css -->
+    <div>
+        <ul style="background-color:lightblue; padding:15px;width:300px">
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Blogs</li>
+        </ul>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure vero quia earum maxime dolores odit maiores! Rerum repudiandae inventore magnam cum ipsam, delectus officia veritatis fugit et tempore quibusdam minus.
+        </p>
+
+        <ul style="float:none; background-color:lightblue; padding:15px;width:300px">
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Blogs</li>
+        </ul>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure vero quia earum maxime dolores odit maiores! Rerum repudiandae inventore magnam cum ipsam, delectus officia veritatis fugit et tempore quibusdam minus.
+        </p>
+
+        <ul style="float:left; background-color:lightblue; padding:15px;width:300px">
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Blogs</li>
+        </ul>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure vero quia earum maxime dolores odit maiores! Rerum repudiandae inventore magnam cum ipsam, delectus officia veritatis fugit et tempore quibusdam minus.
+        </p>
+
+        <ul style="float:right; background-color:lightblue; padding:15px;width:300px">
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Blogs</li>
+        </ul>
+        <p>Lorem ipsum dolor, sit amet Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, reprehenderit.consectetur adipisicing elit. Iure vero quia earum maxime dolores odit maiores! Rerum repudiandae inventore magnam cum ipsam, delectus officia veritatis fugit et tempore quibusdam minus.
+        </p>
+
+        <ul style="float:top; background-color:lightblue; padding:15px;width:300px">
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Blogs</li>
+        </ul>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure vero quia earum maxime dolores odit maiores! Rerum repudiandae inventore magnam cum ipsam, delectus officia veritatis fugit et tempore quibusdam minus.
+        </p>
+
+        <ul style="float:bottom; background-color:lightblue; padding:15px;width:300px">
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Blogs</li>
+        </ul>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure vero quia earum maxime dolores odit maiores! Rerum repudiandae inventore magnam cum ipsam, delectus officia veritatis fugit et tempore quibusdam minus.
+        </p>
+    </div>
+
+    <!-- dispaly property in css inline elements and block elements in css -->
+    <div>
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, iure?
+    
+ 
+
+    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, i
+    </span><span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, iure
+    </span>
+    <!-- converting block into inline -->
+
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+    </ul>
+    <!-- it will not displya the text what have been written -->
+    --------
+    <ul>
+        <li style="display:none;background-color:rgb(173, 30, 255)">Home</li>
+        <li style="display:none;background-color:rgb(173, 30, 255)">About</li>
+    </ul>
+    -------------
+    <ul>
+        <li style="display:inline;background-color:rgb(173, 30, 255)">Home</li>
+        <li style="display:inline;background-color:rgb(173, 30, 255)">About</li>
+    </ul>
+
+    <!-- converting block level into inline  -->
+
+    <span style="display:block ;background-color:rgb(238, 219, 48)">Lorem ipsum dolor sit amet, </span> <span style="display:block;background-color:rgb(238, 219, 48)">Lorem, ipsum dolor.</span>
+
+    </div>
+
+    <div>
+        <!-- positionin in the css -->
+        <!-- types of position in css static,relative,  absolute, , fixed -->
+
+        
+
+
+
+
+
+    </div>
+
+
+</body>
+</html>
+
+
+
+
+    <!-- positionin in css -->
+    1
+<div>
+    <h1>CSS Tutorial </h1>
+    <div style=" width:90px; height:90px; background-color:blue"></div>
+    <div style="width:100px; height:100px; background-color:red"></div>
+</div>
+2
+<div>
+    <h1>CSS Tutorial </h1>
+    <div style="position:none; width:90px; height:90px; background-color:blue"></div>
+    <div style="width:100px; height:100px; background-color:red"></div>
+</div>
+3
+<div>
+    <h1>CSS Tutorial </h1>
+    <div style="position:static; width:90px; height:90px; background-color:blue"></div>
+    <div style="width:100px; height:100px; background-color:red"></div>
+</div>
+4
+<div>
+    <h1>CSS Tutorial </h1>
+    <div style="position:relative; top:20px; width:90px; height:90px; background-color:blue"></div>
+    <div style="width:100px; height:100px; background-color:red"></div>
+</div>
+
+5
+<div>
+    <h1>CSS Tutorial </h1>
+    <div style="position:relative; bottom:20px; width:90px; height:90px; background-color:blue"></div>
+    <div style="width:100px; height:100px; background-color:red"></div>
+</div>
+
+6
+<div>
+    <h1>CSS Tutorial </h1>
+    <div style="position:relative; left:20px; width:90px; height:90px; background-color:blue"></div>
+    <div style="width:100px; height:100px; background-color:red"></div>
+</div>
+
+7
+<div>
+    <h1>CSS Tutorial </h1>
+    <div style="position:relative; right:30px; width:90px; height:90px; background-color:blue"></div>
+    <div style="width:100px; height:100px; background-color:red"></div>
+</div>
+
+8
+<div>
+    <h1>CSS Tutorial </h1>
+    <div style="position:relative; top:20px; left:20px; width:90px; height:90px; background-color:blue"></div>
+    <div style="width:100px; height:100px; background-color:red"></div>
+</div>
+
+9
+<div>
+    <h1>CSS Tutorial </h1>
+    <div style="position:relative; top:30px; right:30px; width:90px; height:90px; background-color:blue"></div>
+    <div style="width:100px; height:100px; background-color:red"></div>
+</div>
+
+    <!-- positionin in css -->
+    1
+<div>
+    <h1>CSS Tutorial </h1>
+    <div style=" width:90px; height:90px; background-color:blue"></div>
+    <div style="width:100px; height:100px; background-color:red"></div>
+</div>
+2
+<div>
+    <h1>CSS Tutorial </h1>
+    <div style="position:none; width:90px; height:90px; background-color:blue"></div>
+    <div style="width:100px; height:100px; background-color:red"></div>
+</div>
+3
+<div>
+    <h1>CSS Tutorial </h1>
+    <div style="position:static; width:90px; height:90px; background-color:blue"></div>
+    <div style="width:100px; height:100px; background-color:red"></div>
+</div>
+4
+<div>
+    <h1>CSS Tutorial </h1>
+    <div style="position:relative; top:20px; width:90px; height:90px; background-color:blue"></div>
+    <div style="width:100px; height:100px; background-color:red"></div>
+</div>
+
+5
+<div>
+    <h1>CSS Tutorial </h1>
+    <div style="position:relative; bottom:20px; width:90px; height:90px; background-color:blue"></div>
+    <div style="width:100px; height:100px; background-color:red"></div>
+</div>
+
+6
+<div>
+    <h1>CSS Tutorial </h1>
+    <div style="position:relative; left:20px; width:90px; height:90px; background-color:blue"></div>
+    <div style="width:100px; height:100px; background-color:red"></div>
+</div>
+
+7
+<div>
+    <h1>CSS Tutorial </h1>
+    <div style="position:relative; right:30px; width:90px; height:90px; background-color:blue"></div>
+    <div style="width:100px; height:100px; background-color:red"></div>
+</div>
+
+8
+<div>
+    <h1>CSS Tutorial </h1>
+    <div style="position:relative; top:20px; left:20px; width:90px; height:90px; background-color:blue"></div>
+    <div style="width:100px; height:100px; background-color:red"></div>
+</div>
+
+9
+<div>
+    <h1>CSS Tutorial </h1>
+    <div style="position:relative; top:30px; right:30px; width:90px; height:90px; background-color:blue"></div>
+    <div style="width:100px; height:100px; background-color:red"></div>
+</div>
+
+
+<!-- absolute position in css -->
+1
+<div>
+    <h1>CSS Tutorial </h1>
+    <div style="position:absolute; width:90px; height:90px; background-color:blue"></div>
+    <div style="width:100px; height:100px; background-color:red"></div>
+</div>
+2
+<div>
+    <h1>CSS Tutorial </h1>
+    <div style="position:absolute;top:30px; width:90px; height:90px; background-color:blue"></div>
+    <div style="width:100px; height:100px; background-color:red"></div>
+</div>
+3
+<div>
+    <h1>CSS Tutorial </h1>
+    <div style="position:absolute;bottom:30px; width:90px; height:90px; background-color:blue"></div>
+    <div style="width:100px; height:100px; background-color:red"></div>
+</div>
+4
+<div>
+    <h1>CSS Tutorial </h1>
+    <div style="position:absolute; left:30px; width:90px; height:90px; background-color:blue"></div>
+    <div style="width:100px; height:100px; background-color:red"></div>
+</div>
+
+5
+<div>
+    <h1>CSS Tutorial </h1>
+    <div style="position:absolute; right:30px; width:90px; height:90px; background-color:blue"></div>
+    <div style="width:100px; height:100px; background-color:red"></div>
+</div>
+
+6
+<div>
+    <h1>CSS Tutorial </h1>
+    <div style="position:absolute;top:30px; left:30px; width:90px; height:90px; background-color:blue"></div>
+    <div style="width:100px; height:100px; background-color:red"></div>
+</div>
+
+7
+<div>
+    <h1>CSS Tutorial </h1>
+    <div style="position:absolute; bottom:30px; right: 40px; width:90px; height:90px; background-color:blue"></div>
+    <div style="width:100px; height:100px; background-color:red"></div>
+</div>
+
+8
+<div>
+    <h1>CSS Tutorial </h1>
+    <div style="position:absolute; bottom:200px; right: 200px; width:90px; height:90px; background-color:blue"></div>
+    <div style="width:100px; height:100px; background-color:red"></div>
+</div>
+
+9
+<div>
+    <h1>CSS Tutorial </h1>
+    <div style="position:absolute;bottom:100px; left:100px; width:90px; height:90px; background-color:blue"></div>
+    <div style="width:100px; height:100px; background-color:red"></div>
+</div>
+
+
+<!-- absolute position in css -->
+1
+<div>
+    <h1>CSS Tutorial </h1>
+    <div style="position:absolute; width:90px; height:90px; background-color:blue"></div>
+    <div style="width:100px; height:100px; background-color:red"></div>
+</div>
+2
+<div>
+    <h1>CSS Tutorial </h1>
+    <div style="position:absolute;top:30px; width:90px; height:90px; background-color:blue"></div>
+    <div style="width:100px; height:100px; background-color:red"></div>
+</div>
+3
+<div>
+    <h1>CSS Tutorial </h1>
+    <div style="position:absolute;bottom:30px; width:90px; height:90px; background-color:blue"></div>
+    <div style="width:100px; height:100px; background-color:red"></div>
+</div>
+4
+<div>
+    <h1>CSS Tutorial </h1>
+    <div style="position:absolute; left:30px; width:90px; height:90px; background-color:blue"></div>
+    <div style="width:100px; height:100px; background-color:red"></div>
+</div>
+
+5
+<div>
+    <h1>CSS Tutorial </h1>
+    <div style="position:absolute; right:30px; width:90px; height:90px; background-color:blue"></div>
+    <div style="width:100px; height:100px; background-color:red"></div>
+</div>
+
+6
+<div>
+    <h1>CSS Tutorial </h1>
+    <div style="position:absolute;top:30px; left:30px; width:90px; height:90px; background-color:blue"></div>
+    <div style="width:100px; height:100px; background-color:red"></div>
+</div>
+
+7
+<div>
+    <h1>CSS Tutorial </h1>
+    <div style="position:absolute; bottom:30px; right: 40px; width:90px; height:90px; background-color:blue"></div>
+    <div style="width:100px; height:100px; background-color:red"></div>
+</div>
+
+8
+<div>
+    <h1>CSS Tutorial </h1>
+    <div style="position:absolute; bottom:200px; right: 200px; width:90px; height:90px; background-color:blue"></div>
+    <div style="width:100px; height:100px; background-color:red"></div>
+</div>
+
+9
+<div>
+    <h1>CSS Tutorial </h1>
+    <div style="position:absolute;bottom:100px; left:100px; width:90px; height:90px; background-color:blue"></div>
+    <div style="width:100px; height:100px; background-color:red"></div>
+</div>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div>
+        <h1>CSS Tutorial 1 </h1>
+        <div style=" width:90px; height:90px; background-color:blue"></div>
+        <div style="width:100px; height:100px; background-color:red"></div>
+    </div>
+    
+
+    <div>
+        <h1>CSS Tutorial 1 </h1>
+        <div style="position:none;; width:90px; height:90px; background-color:blue"></div>
+        <div style="width:100px; height:100px; background-color:red"></div>
+    </div>
+
+    <div>
+        <h1>CSS Tutorial 1 </h1>
+        <div style="position:fixed; top:250px ; width:90px; height:90px; background-color:blue"></div>
+        <div style="width:100px; height:100px; background-color:red"></div>
+    </div>
+
+    <div>
+        <h1>CSS Tutorial 1 </h1>
+        <div style="position:fixed; left:250px; width:90px; height:90px; background-color:blue"></div>
+        <div style="width:100px; height:100px; background-color:red"></div>
+    </div>
+
+    <div>
+        <h1>CSS Tutorial 1 </h1>
+        <div style="position:fixed; bottom:150px; width:90px; height:90px; background-color:blue"></div>
+        <div style="width:100px; height:100px; background-color:red"></div>
+    </div>
+
+    <div>
+        <h1>CSS Tutorial 1 </h1>
+        <div style="position:fixed; right:100px; width:90px; height:90px; background-color:blue"></div>
+        <div style="width:100px; height:100px; background-color:red"></div>
+    </div>
+
+    <div>
+        <h1>CSS Tutorial 1 </h1>
+        <div style="position:fixed;top:100px; left:150px; width:90px; height:90px; background-color:blue"></div>
+        <div style="width:100px; height:100px; background-color:red"></div>
+    </div>
+
+    <div>
+        <h1>CSS Tutorial 1 </h1>
+        <div style="position:fixed; top:150px; right:200px; width:90px; height:90px; background-color:blue"></div>
+        <div style="width:100px; height:100px; background-color:red"></div>
+    </div>
+
+    <div>
+        <h1>CSS Tutorial 1 </h1>
+        <div style="position:fixed; bottom:200px ; right:200px; width:90px; height:90px; background-color:blue"></div>
+        <div style="width:100px; height:100px; background-color:red"></div>
+    </div>
+
+    <div>
+        <h1>CSS Tutorial 1 </h1>
+        <div style="position:fixed;bottom:50px; right:50px; width:90px; height:90px; background-color:blue"></div>
+        <div style="width:100px; height:100px; background-color:red"></div>
+    </div>
+    
+
+
+
+
+
+
+
+</body>
+</html>

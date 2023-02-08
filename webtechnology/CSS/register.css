@@ -1,0 +1,35 @@
+* {
+    padding:0px;
+    margin:0px;
+}
+body {
+    width:1300px;
+    margin:auto;
+    background-color: aquamarine;
+
+}
+header h1 {
+    text-align: center;
+    color:green;
+    
+
+}
+
+form {
+    position:absolute;
+    top: 200px;    
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+td label {
+    font-size: 1.5em;
+}
+
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transform: rotote(0deg, 0deg, 0deg);
+}

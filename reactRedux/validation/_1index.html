@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function validate() {
+            var username = document.getElementById('id_username').value
+            var password = document.getElementById('id_password').value
+                        
+            if (username.trim() =="") {
+                alert("enter the inputs")
+                username.style.border= "2px solid"
+                return false
+            }
+            else if ( password.trim() == ""){
+                alert("enter the inputs")
+                username.style.border= "2px solid"
+                return false
+            }
+            else if ( password.length<5 || username.length<5){
+                username.style.border= "2px solid"
+                alert("enter the more the 5 charecters")
+                return false
+                
+            }
+            else {
+                return true
+            }
+        }
+        function log_message() {
+            console.log("you got logged ")
+
+        }
+        
+    </script>
+</head>
+<body>
+    <form  onsubmit="return validate()"  action="./home.html">
+        <h1>This is the index page </h1>
+        user name : <input type="text" name="username" id="id_username"> <br> <br>
+        password  : <input type="password" name="password" id="id_password"> <br> <br>
+        
+        click to submit : <button type="submit">Submit</button>
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,7 @@
+#navbarSupportedContent{
+    float: right;
+    text-decoration: none;
+}
+div ul li{
+    margin: 10px;
+}

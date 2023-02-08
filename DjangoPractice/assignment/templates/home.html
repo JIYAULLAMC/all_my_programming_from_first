@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0px;
+            margin:0px;
+            background-color: black;
+            color: white;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 1300px;
+            padding: 0px;
+            margin: auto;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 10px;
+        }
+
+        #logo p {
+            font-size: 30px;
+            font-weight: bold;
+            color: rgb(116, 236, 252);
+
+        }
+        #logo  p span {
+            color: rgb(0, 17, 255);
+
+        }
+        .nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+           
+        }
+
+        .nav ul li {
+            font-size: 25px;
+            border: 2px solid gray;
+            border-radius: 20px;
+            padding: 10px 20px;   
+            margin: 10px 20px;         
+
+        }
+        .nav ul li a {
+            text-decoration: none;
+        }
+
+        #search {
+            padding: 30px 20px 0px 0px ;
+        }
+        .laptop {
+            margin:10px 10px;
+            border: 2px solid ghostwhite;
+            border-radius: 15px;
+            width: 320px;
+
+        }
+        .img {
+            width: 300px;
+            height: 300px;
+        }
+
+        .laptops {
+            display: flex;
+            margin: 20px;
+            overflow: scroll;
+            overflow: scroll;
+
+
+        }
+        .heading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 20px;
+        }
+        .heading div p {
+            text-align: center;
+        }
+
+        
+
+
+
+    </style>
+</head>
+<body>
+<div>
+    <div class="header">
+        <div id="logo">
+            <p> <span>My</span> Logo</p>
+
+        </div>
+        <div class="nav">
+            <ul>                
+                <li><a href="">Home</a></li>
+                <li><a href="">Electronics</a></li>
+                <li><a href="">Serivices</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Account</a></li>
+            </ul>
+
+
+        </div>
+        <div id="search">
+            <p>Search Here <input type="text" name="" id=""> </p>
+        </div>
+
+    </div>
+
+    <main class="main">
+
+        {% for i in li %}
+
+
+        <div class="heading">
+        <div><h1>This is Laptops</h1> </div>
+        <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente similique, 
+            commodi dignissimos iusto voluptate odio in aliquam maiores ex modi iure natus unde. 
+            A dicta sunt quos possimus libero mollitia cumque, commodi quam esse repellendus, quod 
+            enim repellat expedita. Cumque fugit commodi autem, nisi amet libero et quidem ut reprehenderit 
+            necessitatibus, incidunt, impedit soluta nihil inventore laborum. Odio veniam incidunt rerum saepe 
+            soluta consectetur tenetur doloribus perferendis! Assumenda tempore quia ipsam facilis quaerat
+             molestiae, porro illum eligendi recusandae vero quidem odit rerum ipsa quam iste vitae, 
+             molestias earum possimus atque ad, quisquam cupiditate qui? Dolores iusto ea autem inventore
+             magnam.</p>
+        </div>
+        </div>
+
+
+        <div class="laptops">
+
+
+        {% for i in li %}
+
+        <div class="laptop">
+
+            <div class="img">
+                <img src="" alt="This is an image"></div>
+            <div class="info">
+                <form action="">
+                    <table>
+                        <tr>
+                            <td>Product Name </td>
+                            <td>HP note book</td>
+                        </tr>
+                        <tr>
+                        <tr>
+                            <td>RAM </td>
+                            <td>8 Giga Byte</td>
+                        </tr>
+                        <tr>
+                        <tr>
+                            <td>Processor </td>
+                            <td>Intel i5</td>
+                        </tr>
+                        <tr>
+                        <tr>
+                            <td>Secondary Storage </td>
+                            <td>325 Giga Byte</td>
+                        </tr>
+                        <tr>
+                            <td>External Hard Disk </td>
+                            <td>1 Tera Byte</td>
+                        </tr>
+                        <tr>
+                            <td>Graphic Card </td>
+                            <td>2 Giga Byte</td>
+                        </tr>
+                        <tr>
+                            <td>Display Size </td>
+                            <td>15.6 inches</td>
+                        </tr>
+                        <tr>
+                            <td>Size </td>
+                            <td>15inch width <br> 21 inch length</td>
+                        </tr>
+                        <tr>
+                            <td>Weight </td>
+                            <td>2 kilo gram</td>
+                        </tr>
+                        <tr>
+                            <td>to buy</td>
+                            <td><button>Add to cart</button></td>
+                        </tr>
+                        
+                    </table>
+                </form>
+            </div>
+
+        </div>
+        {% endfor %}
+
+        
+
+    </div>
+    {% endfor %}
+
+    </main>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+    
+</body>
+</html>

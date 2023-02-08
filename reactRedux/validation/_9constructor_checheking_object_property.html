@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>hello world</h1>
+    <script>
+      function Mobile() {
+        this.model = "1111";
+        this.work = function () {
+          document.write("yes i will do the work ");
+        };
+      }
+
+      var samsung = new Mobile();
+      console.log(samsung.model);
+      document.write(samsung.model);
+
+      // how to check whether the property is exist or not
+      // typeof function
+
+      if (samsung.model === "undefine") {
+        document.write("not exist");
+      } else {
+        document.write("exist");
+      }
+
+      // in operator
+
+      if ("model" in samsung) {
+        document.write(" exist <br>");
+      } else {
+        document.write("--------- not exist <br>");
+      }
+      // method 3 hasOwnProperty()
+
+      if (samsung.hasOwnProperty("color")) {
+        document.write(" availabe <br>");
+      } else {
+        document.write("---------not  availabe <br>");
+      }
+    </script>
+  </body>
+</html>

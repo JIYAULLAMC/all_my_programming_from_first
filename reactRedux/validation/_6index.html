@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- 
+
+        <p>----functions----</p>
+        <script>
+            function display() {
+                document.write("Hello World <br>");
+                document.write("i am your buddy <br>");
+            }
+            display();
+        </script>
+        <p>----function with parameter----</p>
+        <script>
+            function display1(name, age) {
+                document.write(`Hello World my name ${name} and age is ${age} <br>`);
+            }
+            display1("aaaa", 23);
+            display1("bbbb", 19);
+            display1("cccc", 30);
+        </script>
+    
+
+    <p>----function parameter as argument object ----</p>
+    <script>
+      function display1(name, age) {
+        document.write("arguemt object  " ,name,"<br>");
+        document.write("arguemt object  " ,age,"<br>");
+        document.write("-------------------------- <br>")
+        document.write("arguemt object  " ,arguments,"<br>");
+        document.write("arguemt object  " ,arguments[0],"<br>");
+        document.write("arguemt object  " ,arguments[1],"<br>");
+      }
+      display1("aaaa", 23);
+      
+    </script>
+
+    <p>---- argument object ----</p>
+     i am not reciving argument as parameter insted directly calling obj 
+    <script>
+      function display1(name) {
+        document.write("lengthe of argument object is  :", arguments.length, "<br>")
+        document.write("-------------------------- <br>")
+        //you can pass any number of arguments
+
+        for (let i=0; i<=arguments.length-1; i++){
+            document.write("arguemt object ---  " ,arguments[i],"<br>");
+        }        
+        document.write("arguemt object ---  " ,name,"<br>");
+      }
+      display1("aaaa", 233423432, "hello world is ", "world is full of love", "how are your");
+      
+    </script>
+
+    <p>---- default parameter  ----</p>
+    i am not reciving argument as parameter insted directly calling obj 
+    <script>
+      function display1(message='hello world') {
+          document.write(message, "<br>")     
+        }
+        display1();
+        display1("It is good");
+        
+    </script>
+    
+    <p>---- default parameter  ----</p>
+    <script>
+        function display1(a, ...args) {
+            document.write(a, "<br>")     
+            document.write(args, "<br>")     
+            document.write(typeof(args), "<br>")  
+            console.log("this is are args", args)
+            console.log("these are arguments ",arguments)   
+        }
+        display1();
+        display1(1,2,3,4,4,5);
+        
+    </script>
+    
+    <p>---- return statement ----</p>
+    <script>
+        function display1(a,b) {
+            return  (a+b)    
+        }
+        var result = display1(1,2)
+        'or'
+        document.write("result is ", result, "<br>");
+        document.write("result is ", display1(10,20), "<br>");
+        document.write("result is ", display1(40,90), "<br>");
+        document.write("result is ", display1(70,70), "<br>");
+        document.write("result is ", display1(80,10), "<br>");
+        
+    </script>
+    <p>-------scope of variables--------</p>
+    <p>-------global variables--------</p>
+    <script>
+        var i = 10 // global variable
+        function display(){
+            i = i+10
+            document.write("var i is ",i, "<br>")
+        }
+        display()
+        i = i+10
+        document.write("var i is ",i, "<br>")
+    </script>
+
+
+    <p>-------local variables--------</p>
+    <script>
+        
+        function display(){
+            var i = 10 // local variable
+            document.write("var i is ",i, "<br>")
+        }
+        display()
+        // we can not access outside block 
+        document.write("var i is ",i, "<br>")
+    </script>
+
+    <script>
+      var msg = () => {
+        return {
+          a: 10,
+          b: 20,
+        };
+      };
+      var msg2 = () => msg();
+      document.write(msg2['a']);
+    </script>
+  -->
+  </body>
+</html>

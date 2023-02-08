@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function Mobile(color, ram, memory, work) {
+        this.color = color;
+        this.ram = ram;
+        this.memory = memory;
+        this.work = function () {
+          document.write(`yes---> ${work}`);
+        };
+      }
+
+      var samsung = new Mobile("red", "4gb", "64gb", "yes it will work");
+
+      // for in loop to iterate the object
+
+      document.write(" <br> for in loop to iterate the object------------------- ,<br>")
+      for (var prop in samsung) {
+        document.write(samsung[prop], "<br>");
+      }
+      //both key and value pais
+      document.write(" <br> both key and value pais------------------- ,<br>")
+
+      for (var prop in samsung) {
+        document.write(
+          `key is prop --> ${prop}  and value is -->  ${samsung[prop]}  <br>`
+        );
+      }
+      
+document.write(" <br> only property not function------------------- <br>")
+      // only property not function
+
+      for (var prop in samsung) {
+        if (typeof samsung[prop] !== "function") {
+          document.write(samsung[prop], "<br>");
+        }
+      }
+    </script>
+  </head>
+  <body></body>
+</html>

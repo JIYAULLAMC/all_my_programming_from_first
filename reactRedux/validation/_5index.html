@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>this is looping statements</p>
+    <p>for loop</p>
+    <!-- 
+
+        <script>
+            document.write("-----method 1 all in one-----  <br>");
+      for (let i = 0; i < 5; i++) {
+          document.write("i--    ", i, "<br>");
+        }
+        
+        document.write("------method 2 initilize outside   <br>");
+        let j = 0;
+        for (; j < 5; j++) {
+            document.write("j--    ", j, "<br>");
+        }
+        
+        document.write(
+            "------method 3 initilize outside increment inside   <br>"
+            );
+            
+            let k = 0;
+            for (; k < 5; ) {
+                document.write("k--    ", k, "<br>");
+                k++;
+            }
+            
+            document.write("------break statement---   <br>");
+            
+            let l = 0;
+            for (; ; l++) {
+                if (l == 3) {
+                    break;
+                }
+                document.write("l--    ", l, "<br>");
+            }
+            document.write("------nested for loop ---   <br>");
+            
+            let m = 0;
+            for (; m < 3; m++) {
+                document.write("<strong> the m is </strong>", m, "<br>");
+                for (let n = 0; n < 5; n++) {
+                    document.write(" the n is ", m, " ",+ n, "<br>");
+                }
+            }
+        </script>
+        <p>--------while loop -----------</p>
+        <script>
+            let i = 0;
+            while (i < 5) {
+                document.write("i--  ", i, "<br>");
+                i++;
+            }
+        </script>
+        
+        <p>--------while loop with break -----------</p>
+        <script>
+            let j = 0;
+            while (j < 5) {
+                if (j == 3) {
+                    break;
+        }
+        document.write("j--  ", j, "<br>");
+        j++;
+    }
+</script>
+
+<p>--------while loop with break -----------</p>
+<script>
+    while (true) {
+        flag = prompt("write stop to stop : ")
+        if (flag === "stop") {
+            break;
+        }
+        document.write("i am running ", "<br>");
+        console.log("the value of flag is ", flag)
+        
+    }
+</script>
+<p>--------nested while loop -----------</p>
+<script>
+    let i = 0;
+      while (i < 3) {
+        document.write("++++++++  <br>");
+
+        let j = 0;
+        while (j < 3) {
+            document.write("i, j -----", i, " ", j, "<br>");
+            j++;
+        }
+        i++;
+    }
+</script>
+
+<p>--------do while loop -----------</p>
+<script>
+    let i = 0;
+    do {
+        document.write(" hello world ", i, '<br>');
+        i++;
+    } while (i < 5);
+</script>
+-->
+
+    <p>-------- nested do while loop -----------</p>
+    <script>
+      let i = 0;
+      do {
+        document.write("<strong>  hello world </strong> ", i, "<br>");
+        i++;
+        let j = 0;
+        do {
+          document.write("---------- hello world ", j, "<br>");
+          j++;
+        } while (j < 3);
+      } while (i < 5);
+    </script>
+  </body>
+</html>

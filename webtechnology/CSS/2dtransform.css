@@ -1,0 +1,197 @@
+
+
+.translate{
+    width:150px;
+    height:150px;
+    margin: 100px;
+    background-color: aqua;
+    transform: translate(200px);
+}
+
+
+.rotate {
+    width:150px;
+    height:150px;
+    margin: 100px;
+    background-color: rgb(167, 207, 57);
+    transform: translateX(150);
+    transform: rotate(30deg);
+}
+
+
+
+.rotate1 {
+    width:150px;
+    height:150px;
+    margin: 100px;
+    background-color: rgb(105, 212, 63);
+    transform: translateX(150);
+    transform: rotate(90deg);
+}
+
+
+
+
+.rotate2 {
+    width:150px;
+    height:150px;
+    margin: 100px;
+    background-color: rgb(30, 80, 121);
+    transform: translateX(150);
+    transform: rotate(-30deg);
+}
+
+
+
+.rotate4 {
+    width:150px;
+    height:150px;
+    margin: 200px;
+    background-color: red;
+    transform: translateX(150);
+    transform: rotate(-110deg);
+}
+
+
+
+.scale1 {
+    width:150px;
+    height:150px;
+    margin: 200px;
+    background-color: rgb(165, 89, 26);
+    transform: scalex(2);
+   
+}
+
+
+
+.scale2 {
+    width:150px;
+    height:150px;
+    margin: 200px;
+
+    background-color: rgb(165, 26, 102);
+    transform: scaleY(2);
+   
+}
+
+
+
+.scale3 {
+    width:150px;
+    height:150px;
+    margin: 100px;
+    background-color: rgb(47, 26, 165);
+    transform: scale(2,2);
+   
+}
+
+
+
+.scale4 {
+    width:150px;
+    height:150px;
+    margin: 100px;
+    background-color: rgb(42, 165, 26);
+    transform: scale(4,2);
+   
+}
+
+
+
+.scale5 {
+    width:150px;
+    height:150px;
+    margin: 1000px;
+    background-color: rgb(42, 165, 26);
+    transform: scale(2,10);
+   
+}
+
+/* skew */
+
+
+.skew {
+    width:150px;
+    height:150px;
+    margin: 300px;
+    background-color: rgb(42, 165, 26);
+    transform: skew(30deg);
+   
+}
+
+.skew1 {
+    width:150px;
+    height:150px;
+    margin: 300px;
+    background-color: rgb(42, 165, 26);
+    transform: skew(50deg);
+   
+}
+
+.skew2 {
+    width:150px;
+    height:150px;
+    margin: 300px;
+    background-color: rgb(42, 165, 26);
+    transform: skew(90deg);
+   
+}
+
+
+
+.skew3 {
+    width:150px;
+    height:150px;
+    margin: 300px;
+    background-color: rgb(42, 165, 26);
+    transform: skew(-30deg);
+   
+}
+
+
+
+.skew4 {
+    width:150px;
+    height:150px;
+    margin: 300px;
+    background-color: rgb(42, 165, 26);
+    transform: skew(30deg, 30deg);
+   
+}
+
+
+
+.skew5 {
+    width:150px;
+    height:150px;
+    margin: 300px;
+    background-color: rgb(42, 165, 26);
+    transform: skew(-30deg, 90deg);
+   
+}
+
+
+
+
+.skew6 {
+    width:150px;
+    height:150px;
+    margin: 300px;
+    background-color: rgb(42, 165, 26);
+    transform: skew(30deg);
+   
+}
+
+
+.skew7 {
+    width:150px;
+    height:150px;
+    margin: 300px;
+    background-color: rgb(42, 165, 26);
+    transform: skew(-30deg);
+   
+}
+
+
+/* 3d transform */

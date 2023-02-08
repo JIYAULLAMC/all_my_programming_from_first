@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+div {
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    animation-name: shree;
+    animation-duration: 10s;
+    animation-iteration-count: 5;
+}
+
+@keyframes shree {
+    0%{
+        background-color: red;
+        transform: translate(500px);
+        
+    }
+    25%{
+        background-color: aqua;
+        transform: skew(60deg);
+        transform: rotate(90deg);
+    }
+    75%{
+        background-color: firebrick;
+        transform: scale(2);
+        transform: rotate(90deg);
+    }
+    100%{
+        background-color: chartreuse;
+        transform: rotate(90deg);
+    }
+    
+}

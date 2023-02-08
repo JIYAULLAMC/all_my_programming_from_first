@@ -1,0 +1,145 @@
+<!DOCTYPE html>    
+<html>    
+<head>    
+<meta name="viewport" content="width=device-width, initial-scale=1">    
+<style>    
+* {    
+  box-sizing: border-box;    
+}    
+    
+input[type=text], select, textarea {    
+  width: 100%;    
+  padding: 12px;    
+  border: 1px solid rgb(70, 68, 68);    
+  border-radius: 4px;    
+  resize: vertical;    
+}    
+input[type=email], select, textarea {    
+  width: 100%;    
+  padding: 12px;    
+  border: 1px solid rgb(70, 68, 68);    
+  border-radius: 4px;    
+  resize: vertical;    
+}    
+    
+label {    
+  padding: 12px 12px 12px 0;    
+  display: inline-block;    
+  color: brown;
+}    
+    
+input[type=submit] {    
+  background-color: rgb(37, 116, 161);    
+  color: white;    
+  padding: 12px 20px;    
+  border: none;    
+  border-radius: 4px;    
+  cursor: pointer;    
+  float: right;    
+}  
+input[type=submit]:hover {    
+  background-color: #45a049;    
+} 
+input[type=reset]{
+    background-color: rgb(37, 116, 161);    
+    color: white;    
+    padding: 12px 20px;    
+    border: none;    
+    border-radius: 4px;    
+    cursor: pointer;    
+    float: left;
+}  
+input[type=reset]:hover {    
+  background-color: #45a049;    
+}    
+.container {    
+  border-radius: 5px;    
+  background-color: #f2f2f2;    
+  padding: 20px;    
+}       
+.row:after {    
+  content: "";    
+  display: table;    
+  clear: both;    
+}    
+.feedback{
+    height: 600px;
+    width: 600px;
+    float: center;
+    transform: translate(60%,5%);
+    border-radius: 15px;
+}
+body{
+    background-color: #45a049;
+} 
+.n1{
+    color: red;
+    margin-left: 5px;
+}
+
+</style> 
+<script>
+    function validate()
+    {
+        let name = document.getElementById("fname").value;
+        let email = document.getElementById("email").value;
+        let phone = document.getElementById("phone").value;
+        let subject = document.getElementById("subject").value;
+        if(name == ""){
+            document.getElementById("s1").innerHTML = "Please enter the name";
+            event.preventDefault();
+        }
+        else if(email == ""){
+            document.getElementById("s2").innerHTML = "Please enter the Email";
+            event.preventDefault();
+        }
+        else if(phone == ""){
+            document.getElementById("s3").innerHTML = "Please enter the Phone number";
+            event.preventDefault();
+        }
+        else if(subject == ""){
+            document.getElementById("s4").innerHTML = "Please enter the message";
+            event.preventDefault();
+        }
+    }
+</script>   
+</head>    
+<body>        
+<div class="container feedback">    
+  <form action="https://www.google.com" onsubmit="validate()">    
+    <div class="row">        
+      <div class="col-lg-12">    
+        <label for="fname">Full Name:</label> 
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">   
+        <span id="s1" class="n1"></span> 
+      </div>    
+    </div>       
+    <div class="row">        
+        <div class="col-lg-12">    
+            <label for="email">E-mail:</label>  
+            <input type="email" id="email" name="mailid" placeholder="Your mail id..">  
+            <span id="s2" class="n1"></span>  
+        </div>    
+    </div>
+    <div class="row">        
+        <div class="col-lg-12">    
+            <label for="email">Phone no:</label>  
+            <input type="text" id="phone" name="phone" placeholder="Your phone number..">
+            <span id="s3" class="n1"></span>    
+        </div>     
+    </div>        
+    <div class="row">       
+        <div class="col-lg-12">   
+            <label for="feed_back">Feed Back:</label> 
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            <span id="s4" class="n1"></span>    
+        </div>    
+    </div>    
+    <div class="row">    
+      <input type="submit" value="Submit">  
+      <input type="reset" value="Reset">  
+    </div>    
+  </form>    
+</div>  
+</body>    
+</html>   

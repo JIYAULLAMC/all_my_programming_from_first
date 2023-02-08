@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        .base {
+            width: 1300px;
+            margin: auto;
+            background-color: rgba(206, 252, 236, 0.548);
+        }
+
+
+        header{
+            display: flex;
+            justify-content: space-around;
+
+        }
+
+        #nav {
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+        }
+
+        #nav li {
+            margin: 30px;
+        }
+
+        #nav li a {
+            font-size: 30px;
+            text-decoration: none;
+            
+        }
+
+        .main {
+            width: 100%;
+            height: 400px;
+            background-color: rgb(161, 209, 211);
+            border: 1px slid;
+            border-radius: 0px 30px;
+            margin-bottom: 5px ;
+        }
+
+        .main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .main div h1 {
+            text-align: center;
+        }
+
+        .main div p {
+            text-align: center;
+            
+        }
+
+        table tr td {
+            padding: 10px;
+            font-size: 20px;
+            margin: 20px;
+        }
+
+
+
+
+    </style>
+
+
+
+    
+</head>
+<body>
+
+<div class="base">  
+
+    <header>
+        <div>
+            <h1>My Site Register Page</h1>
+
+        </div>
+        <div>
+            <ul id="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+        </div>
+    </header>
+
+    <div class="main">
+        <div>
+            <form action="">
+                <table>
+                    <tr>
+                        <td>Enter the User Name</td>
+                        <td><input type="text" name="username" id=""></td>
+                    </tr>
+                    <tr>
+                        <td>Enter the First Name</td>
+                        <td><input type="text" name="firstname" id=""></td>
+                    </tr>
+                    <tr>
+                        <td>Enter the Middle name :</td>
+                        <td><input type="text" name="midlename" id=""></td>
+                    </tr>
+                    <tr>
+                        <td>Enter the Last Name</td>
+                        <td><input type="text" name="lastname" id=""></td>
+                    </tr>
+                    <tr>
+                        <td>Enter the E-mail</td>
+                        <td><input type="email" name="email" id=""></td>
+                    </tr>
+                    <tr>
+                        <td>Enter the password </td>
+                        <td><input type="password" name="password1" id=""></td>
+                    </tr>
+                    <tr>
+                        <td>Confirm the password </td>
+                        <td><input type="password" name="password2" id=""></td>
+                    </tr>
+                    <tr>
+                        <td>Clic here <input type="reset" value="reset application"></td>
+                        <td>Click here <input type="submit" value="submit application"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+       
+    </div>
+
+   
+
+</div>
+</body>
+</html>

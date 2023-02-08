@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>pre define class base view</h1>
+
+    {% if products %}
+
+    <h2>this are the products</h2>
+    <table border="1px solid ">
+      <tr>
+        <th>id</th>
+        <th>name</th>
+        <th>desc</th>
+        <th>photo name</th>
+        <th>photo</th>
+      </tr>
+
+      {% for product in products %}
+      <tr>
+        <td>{{product.id}}</td>
+        <td>{{product.name}}</td>
+        <td>{{product.desc}}</td>
+        <td>{{product.photo}}</td>
+        <td><img src="{{product.photo.url}}" alt="" width="200px" /></td>
+      </tr>
+      {% endfor %}
+    </table>
+
+    {% else %}
+    <h2>no products</h2>
+    {% endif %}
+  </body>
+</html>

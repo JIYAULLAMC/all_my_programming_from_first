@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function validate() {
+        event.preventDefault();
+        console.log("hello world");
+        let _username = document.getElementById("id_username");
+
+        // let regx = /[AEX]00/   // username should contain 00 associated with either of A or E or X
+        // let regx = /[A-S]00/   // username should contain 00 associated with all the charcter from A to O
+        // let regx = /[a-s]00/   // username should contain 00 associated with all the charcter from a to o
+        // let regx = /[a-s]00/i   // username should contain 00 associated with all the charcter case insensitive A to S or a to s
+        // let regx = /[a-s A-S]00/   // username should contain 00 associated with all the charctercase insensitive A to S or a to s
+        // let regx = /[a-z A-Z]00/   // username should contain 00 associated with all the charcter from A-Z or a-z
+        // let regx = /[0-9]abc/   // username should contain any number associated with 0-9 any number
+        // let regx = /[a-z A-Z 0-9]abc/   // any charcheter a-z or A-Z or number 0-9 associated with abc
+        // let regx = /[a-z]A[0-9]/   // user name should contain a-z and Z and 0 to 9
+
+        // how to exclude cetain things from regex
+        //[a-d] represen only one charecter that is from a to d
+        // [a-s][a-s][a-s] -> three charecter from a-s
+        // [a-d][d-s][s-z] -> one charecter from a- b second charecter from d-s third charecter from s-z
+        // [a-s][a-s][a-s] -> three charecter from a-s  this is same as below [a-s]{3}
+        // [a-s]{3}  -> three chrecter in sequence should be from a-b
+        // [0-9]{}  -> four digit number contain any number 0-9
+        // let regx = /[a-d]{1}/; // only one charecter that is from a-d
+
+        /*
+        \d ---> match any digits equal to [0-9]
+        \w ---> match any digits equal to [0-9] [a-z]  [A-Z]  _
+        \s ---> match any digits equal to white space
+        \t ---> match any digits equal to tab
+        ^ act as not or not starting with any charecter
+        $ act as not end with any charecter
+        . anything only one
+        \ used for neglect the special charecter meanig
+        \. means it is . only not anything or only one used in email for enetering any . value
+        \- means it is not reange it is same charecter as we want to enter
+        ()  ---> used for differernt pattern matching in same pattern by divideing it into number of parts
+        + -----> indicates the at least one and any number of charecters 
+        {3, 5} -> indicates the range of charesets we want to eneter in that
+        ?  --> make the optional
+
+        */
+
+        //let regx = /[a-z]{2}/; // only one charecter that is from a-z
+        //  let regx = /[7-9] \d{9}/; // accept charecter phone number from 7-9 and with 9 digits and chreatedter before and after
+        //  let regx = /^[7-9]\d{9}/; // not  accept any chars at start phone number from  7-9 and with 9 digits  and any charecter after the phone number
+        //  let regx = /[7-9]\d{9}$/; // accept phone number from stating 7-9 and with 9  and not accept any chareter after the number
+        //  let regx = /^[7-9]\d{9}$/; // accept only  phone number 
+        // proper phone number with county digit validation
+
+        let regx = /^[+]91\s[6-9]\d{9}$/; // accept only  phone number 
+        if (regx.test(_username.value)) {
+          alert("valid user name ");
+          _username.style.border = "1px solid black";
+          document.getElementById("id_lbl_username").style.visibility =
+            "hidden";
+        } else {
+          alert("invalid user name");
+          _username.style.border = "2px solid red";
+          _username.style.borderRadius = "4px";
+          document.getElementById("id_lbl_username").style.visibility =
+            "visible";
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <br />
+    <form action="">
+      <input type="text" name="username" id="id_username" />
+      <label
+        for="id_username"
+        id="id_lbl_username"
+        style="color: red; visibility: hidden"
+        >invalid username</label
+      >
+      <br />
+      <br />
+      <button onclick="validate()">check the pattern</button>
+    </form>
+  </body>
+</html>
